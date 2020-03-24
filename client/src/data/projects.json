@@ -1,10 +1,10 @@
 [
   {
-    "name": "1st Project",
+    "name": "Animate",
     "image": "https://i.ibb.co/zFB7kFh/my1st-Project.png",
     "github": "",
     "website": "",
-    "description": "This was my First Project ever, I did it months after my first year at University, So I wanted to test my knowledge and learn some things.",
+    "description": "This was my First Project ever finished, I did it months after my first year at University, So I wanted to test my knowledge and learn some things.",
     "languages": "HTML, CSS, Javascript",
     "somethingElse": "Not deployed yet, comming soon !!!",
     "responsive": "No"
@@ -42,7 +42,7 @@
     "name": "Simplify.",
     "image": "https://i.ibb.co/bWTG4Pn/3rd-Project-IHImg.png",
     "github": "https://github.com/DavidFelix8/FullStack-Project-IronHack",
-    "website": "https://fullstack-froject2-ironhack.herokuapp.com/",
+    "website": "https://simplify-3rdproject.herokuapp.com/",
     "description": "This was my Third Project at Ironhack.  This platform has monthly subscriptions where we offer Services to our memberships.",
     "languages": "ReactJS, NodeJs, Express, Passport, MongoDB",
     "somethingElse": "This is a MERN Application made by me and one friend.",
@@ -51,8 +51,8 @@
   {
     "name": "Portfolio",
     "image": "https://i.ibb.co/Fnd5Jhr/1st-Portfolio-Img.png",
-    "github": "https://github.com/DavidFelix8/PortfolioV00",
-    "website": "https://davidmcfelix.herokuapp.com/",
+    "github": "https://github.com/DavidFelix8/PortfolioV00.1",
+    "website": "https://davidmcfelix.netlify.com/",
     "description": "This is the website that you are watching which is my First Portfolio.",
     "languages": "ReactJs, SCSS",
     "responsive": "Yes"

@@ -44,12 +44,13 @@ class AboutMeView extends Component {
               <h3>
                 <strong>
                   Hi, {'\n'}
-                  My name is David Félix
+                  My name is David Félix.
                 </strong>
                 {'\n'} I’m a Computer Science Student,
                 {'\n'} And I’m a passionate for Web Development,
-                {'\n'} I’m always looking to increase my skills, my creativity, {'\n'}and learn new
-                technologies {'\n'} so I can create amazing projects!
+                {'\n'} I’m always looking to increase my skills, my creativity,
+                {'\n'} and learn new technologies
+                {'\n'} so I can create amazing projects!
               </h3>
               <h2 className="AboutMe-ContactMeHere">You can contact me here:</h2>
               <button className="AboutMe-btn-ArrowDown" onClick={this.updateContent}>
