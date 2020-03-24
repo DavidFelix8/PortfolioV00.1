@@ -62,6 +62,11 @@ class AboutMeView extends Component {
             </div>
           ) : (
             <div className="AboutMe-Text-Second">
+              <img
+                className="AboutMe-WorkingOnTheGround"
+                src="./images/svg/WorkingOnTheGround.svg"
+                alt="Working On The Ground"
+              />
               <h2 className="AboutMe-FindMe">There are your ways to Find Me:</h2>
               <div className="AboutMe-Social d-flex justify-content-around">
                 <a href="https://www.linkedin.com/in/davidmcfelix/">
