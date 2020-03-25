@@ -20,20 +20,6 @@
 
 #AboutMe-Section {
   display: flex;
-  // background-color: #4c51bf;
-  // background: #943a3a;
-  /*   background: linear-gradient(
-    63deg,
-    rgba(76, 81, 191, 1) 0%,
-    rgba(5, 1, 66, 0.9699230033810399) 55%,
-    rgba(76, 81, 191, 1) 78%
-  ); */
-  background: linear-gradient(
-    24deg,
-    rgba(46, 160, 137, 1) 5%,
-    rgba(34, 156, 195, 1) 48%,
-    rgba(73, 83, 2, 1) 100%
-  );
   min-height: 90vh;
   @media (min-width: 1200px) {
     flex-direction: column;
@@ -156,7 +142,7 @@
     display: block;
     justify-content: flex-start;
     align-content: flex-start;
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
 }
 
@@ -191,7 +177,7 @@
   display: flex;
   justify-content: space-between;
   width: 40%;
-  margin: 2rem;
+  margin: 1rem;
   .AboutMe-KnowMore-Links {
     font-size: 1.2rem;
     text-decoration: none;
