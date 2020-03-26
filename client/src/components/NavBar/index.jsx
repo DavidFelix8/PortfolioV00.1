@@ -13,7 +13,7 @@ export class NavBar extends Component {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-           {/*  <Nav.Link className="Navbar-Links" to="/AboutMe">
+            {/*  <Nav.Link className="Navbar-Links" to="/AboutMe">
               About Me
             </Nav.Link>
             <Nav.Link className="Navbar-Links" href="#">
@@ -25,7 +25,7 @@ export class NavBar extends Component {
             <Nav.Link
               className="Navbar-Links"
               eventKey={2}
-              href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A6d47facc-024e-48db-9a50-d0d93fd3e47e"
+              href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A1701b705-3a21-4857-841d-ece6db58bc9e"
             >
               Resume
             </Nav.Link>
