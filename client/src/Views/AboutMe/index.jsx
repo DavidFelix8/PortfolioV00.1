@@ -107,7 +107,7 @@ class AboutMeView extends Component {
                 <div className="AboutMe-KnowMore-Links-div">
                   <a
                     className="AboutMe-KnowMore-Links"
-                    href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A1701b705-3a21-4857-841d-ece6db58bc9e"
+                    href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A07152639-6056-46ae-97a6-6c6289c93c1b"
                   >
                     Resume
                   </a>

@@ -1,6 +1,6 @@
 [
   {
-    "name": "Animate",
+    "name": "Animate - 2019",
     "image": "https://i.ibb.co/zFB7kFh/my1st-Project.png",
     "github": "",
     "website": "",
@@ -10,7 +10,7 @@
     "responsive": "No"
   },
   {
-    "name": "Food Project",
+    "name": "Food Project - 2019",
     "image": "https://i.ibb.co/Hrn05YL/my2nd-Project.png",
     "github": "",
     "website": "",
@@ -20,16 +20,16 @@
     "responsive": "No"
   },
   {
-    "name": "Survivor",
+    "name": "Survivor - 2020",
     "image": "https://i.ibb.co/6WNs660/1st-Project-IHImg.png",
     "github": "https://github.com/DavidFelix8/game-project-javascript",
-    "website": "https://beasurvivordf.netlify.com/",
+    "website": "https://beasurvivor.netlify.com/",
     "description": "This was my First Project at Ironhack. As you can see it's a game done with Canvas. I decided to do it because I always loved fps games, mostly shooting games so it reminds me those times that I used to play.",
     "languages": "Javascript - Canvas",
     "responsive": "No"
   },
   {
-    "name": "4Lolz",
+    "name": "4Lolz - 2020",
     "image": "https://i.ibb.co/g9821Ry/2nd-Project-IHImg.png",
     "github": "https://github.com/DavidFelix8/FullStack-Project-IronHack",
     "website": "https://fullstack-froject2-ironhack.herokuapp.com/",
@@ -39,7 +39,7 @@
     "responsive": "Yes"
   },
   {
-    "name": "Simplify.",
+    "name": "Simplify. - 2020",
     "image": "https://i.ibb.co/JKdy614/3rd-Project-IH.jpg",
     "github": "https://github.com/DavidFelix8/FullStack-Project-IronHack",
     "website": "https://simplify-3rdproject.herokuapp.com/",
@@ -49,8 +49,8 @@
     "responsive": "Yes"
   },
   {
-    "name": "Portfolio",
-    "image": "https://i.ibb.co/vLq41fF/1st-Portfolio-Img.jpg" ,
+    "name": "Portfolio  - 2020",
+    "image": "https://i.ibb.co/vLq41fF/1st-Portfolio-Img.jpg",
     "github": "https://github.com/DavidFelix8/PortfolioV00.1",
     "website": "https://davidmcfelix.netlify.com/",
     "description": "This is the website that you are watching which is my First Portfolio.",

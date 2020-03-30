@@ -25,7 +25,7 @@ export class NavBar extends Component {
             <Nav.Link
               className="Navbar-Links"
               eventKey={2}
-              href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A1701b705-3a21-4857-841d-ece6db58bc9e"
+              href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A07152639-6056-46ae-97a6-6c6289c93c1b"
             >
               Resume
             </Nav.Link>
