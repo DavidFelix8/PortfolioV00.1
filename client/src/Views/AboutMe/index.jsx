@@ -9,23 +9,23 @@ class AboutMeView extends Component {
     super(props);
     this.state = {
       textContent: true,
-      contactShow: false
+      contactShow: false,
     };
     this.updateContent = this.updateContent.bind(this);
   }
 
   updateContent = () => {
-    this.setState(previousState => {
+    this.setState((previousState) => {
       return {
-        textContent: !this.state.textContent
+        textContent: !this.state.textContent,
       };
     });
   };
 
   MoreAbout = () => {
-    this.setState(previousState => {
+    this.setState((previousState) => {
       return {
-        contactShowMore: !this.state.contactShowMore
+        contactShowMore: !this.state.contactShowMore,
       };
     });
   };
@@ -34,7 +34,7 @@ class AboutMeView extends Component {
     const optionsCursorTrueWithMargin = {
       followCursor: true,
       shiftX: 20,
-      shiftY: 0
+      shiftY: 0,
     };
     return (
       <section id="AboutMe-Section">
@@ -107,13 +107,13 @@ class AboutMeView extends Component {
                 <div className="AboutMe-KnowMore-Links-div">
                   <a
                     className="AboutMe-KnowMore-Links"
-                    href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A07152639-6056-46ae-97a6-6c6289c93c1b"
+                    href="https://drive.google.com/file/d/1YXqwG1rPlsVzePq6SU9ShyNMjSldVJXv/view?usp=sharing"
                   >
                     Resume
                   </a>
                   <a
                     className="AboutMe-KnowMore-Links"
-                    href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Ad6989096-3801-4ff5-90a9-4df02990dd2d"
+                    href="https://drive.google.com/file/d/1WQreTjMv0ufxzusLBi2e-bu9_mziA5Mu/view?usp=sharing"
                   >
                     Goals
                   </a>

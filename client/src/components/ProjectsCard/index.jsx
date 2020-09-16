@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.scss';
 import styled from '@emotion/styled/macro';
 
-const ProjectsCard = props => {
+const ProjectsCard = (props) => {
   const Hover = styled.div({
     opacity: 0,
-    transition: 'opacity 350ms ease'
+    transition: 'opacity 350ms ease',
   });
 
   const DisplayBox = styled.div({
@@ -24,26 +24,26 @@ const ProjectsCard = props => {
     khtmlUserSelect: 'none' /* Konqueror HTML */,
     mozUserSelect: 'none' /* Old versions of Firefox */,
     msUserSelect: 'none' /* Internet Explorer/Edge */,
-    userSelect: 'none' /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+    userSelect: 'none' /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */,
   });
 
   const MainTitle = styled.h2({
     textTransform: 'uppercase',
     color: 'cornflowerblue',
-    fontWeight: '900'
+    fontWeight: '900',
   });
 
   const Span = styled.div({});
 
   const SubTitle = styled.h4({
     transform: 'translate3d(0,50px,0)',
-    transition: 'transform 350ms ease'
+    transition: 'transform 350ms ease',
   });
 
   const Paragraph = styled.p({
     transform: 'translate3d(0,50px,0)',
     transition: 'transform 350ms ease',
-    fontWeight: '600'
+    fontWeight: '600',
   });
 
   const Background = styled.div({
@@ -57,29 +57,29 @@ const ProjectsCard = props => {
     ariaHidden: true,
     [`:hover ${MainTitle}`]: {
       display: 'flex,',
-      justifyContent: 'flex-end'
+      justifyContent: 'flex-end',
     },
     [`:hover ${DisplayBox}`]: {
-      backgroundColor: 'rgba(0,0,0,.5)'
+      backgroundColor: 'rgba(0,0,0,.5)',
     },
     [`:hover ${SubTitle}, :hover ${Paragraph}`]: {
-      transform: 'translate3d(0,0,0)'
+      transform: 'translate3d(0,0,0)',
     },
     [`:hover ${Hover}`]: {
-      opacity: 1
-    }
+      opacity: 1,
+    },
   });
 
   const CTA = styled.a({
     position: 'absolute',
     bottom: '30px',
     left: '20px',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   });
   const CTA2 = styled.a({
     position: 'absolute',
     bottom: '30px',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   });
 
   return (
@@ -99,7 +99,7 @@ const ProjectsCard = props => {
               Responsive: {props.responsive}
             </Paragraph>
             <CTA href={props.github} className="ProjectsCard-CTA">
-              View Github
+              View GitHub
             </CTA>
             <CTA2 href={props.website} className="ProjectsCard-CTA2">
               View Page
