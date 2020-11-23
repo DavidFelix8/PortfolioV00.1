@@ -1,9 +1,11 @@
 body {
-  background: linear-gradient(
+ /*  background: linear-gradient(
     20deg,
     rgba(115, 149, 174, 0.9671218829328606) 46%,
     rgba(101, 157, 189, 0.9559174011401436) 84%
-  );
+  ); */  
+  background-image: url('/images/skyatnight2.jpg');
+  background-size: cover;
 }
 
 #Navbar-Main {

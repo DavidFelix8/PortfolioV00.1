@@ -1,33 +1,11 @@
 .Skills_Section {
   min-height: 50vh;
   @media only screen and (min-width: 900px) {
-    min-height: 100vh;
+    min-height: 90vh;
   }
 }
 
-.Skills_MySkills_SVG {
-  width: 100%;
-  height: 100%;
-  @media (min-width: 1200px) {
-    min-width: 120rem;
-  }
-  @media (min-width: 1400px) {
-    min-width: 135rem;
-  }
-  @media (min-width: 1600px) {
-    min-width: 155rem;
-  }
+.Skills_Main_Box{
+  padding: 25rem;
+  border: 5px solid black;  
 }
-
-.Skills_H1 {
-  margin-bottom: 2rem;
-}
-
-.Skills_Container {
-  font-size: 1.2rem;
-  line-height: 4rem;
-}
-/* 
-.col {
-  padding: 0;
-} */

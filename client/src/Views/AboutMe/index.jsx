@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Image } from 'react-bootstrap';
 import ReactHover from 'react-hover';
 
+import RainDrop from './../../components/RainDrop';
+
 import './style.scss';
 
 class AboutMeView extends Component {
@@ -37,10 +39,11 @@ class AboutMeView extends Component {
       shiftY: 0,
     };
     return (
-      <section id="AboutMe-Section">
+      <section id="AboutMe-Section">   
+      <RainDrop/>
         <article className="AboutMe-Article d-flex">
           {this.state.textContent ? (
-            <div className="AboutMe-Text-First">
+            <div className="AboutMe-Text-First">            
               <h3>
                 <strong>
                   Hi, {'\n'}

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-
 import './style.scss';
 
 export class NavBar extends Component {
@@ -15,18 +14,18 @@ export class NavBar extends Component {
           <Nav className="ml-auto">
             {/*  <Nav.Link className="Navbar-Links" to="/AboutMe">
               About Me
-            </Nav.Link>
-            <Nav.Link className="Navbar-Links" href="#">
+              </Nav.Link>
+              <Nav.Link className="Navbar-Links" href="#">
               Skills
-            </Nav.Link>
-            <Nav.Link className="Navbar-Links" to="#">
+              </Nav.Link>
+              <Nav.Link className="Navbar-Links" to="#">
               Projects
-            </Nav.Link> */}
+            </Nav.Link> */}              
             <Nav.Link
               className="Navbar-Links"
               eventKey={2}
               href="https://drive.google.com/file/d/1YXqwG1rPlsVzePq6SU9ShyNMjSldVJXv/view?usp=sharing"
-            >
+              >
               Resume
             </Nav.Link>
           </Nav>

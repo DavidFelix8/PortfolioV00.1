@@ -4,7 +4,7 @@
     "image": "https://i.ibb.co/6WNs660/1st-Project-IHImg.png",
     "github": "https://github.com/DavidFelix8/game-project-javascript",
     "website": "https://beasurvivor.netlify.com/",
-    "description": "This was my First Project at Ironhack. As you can see it's a game done with Canvas. I decided to do it because I always loved fps games, mostly shooting games so it reminds me those times that I used to play.",
+    "description": "This was a game developed in 2D. To win you need to kill at least 7 monsters in 10 seconds.",
     "languages": "Javascript - Canvas",
     "responsive": "No"
   },
@@ -13,19 +13,19 @@
     "image": "https://i.ibb.co/g9821Ry/2nd-Project-IHImg.png",
     "github": "https://github.com/DavidFelix8/FullStack-Project-IronHack",
     "website": "https://fullstack-froject2-ironhack.herokuapp.com/",
-    "description": "This was my Second Project at Ironhack. It's a website where you can share funny posts about programming languages. There's also login with google and share on facebook. Hope you have fun watching it and relate to them.",
-    "languages": "NodeJs, Express, HandleBars, Passport, MongoDB, Passport, Cloudinary, Bcrypt",
-    "somethingElse": "BackEnd application. I did together with 2 Friends.",
+    "description": "It's a MVC application where after logging in with email or google you can upload funny posts about programming languages and even share them on facebook. Hope you have fun watching it and relate to them.",
+    "languages": "NodeJs, Express, HandleBars, Passport, MongoDB, Passport, Cloudinary, Bcrypt, SCSS",
+    "somethingElse": "Full-Stack application. I did together with Two Friends.",
     "responsive": "Yes"
   },
   {
     "name": "Simplify. - 2020",
     "image": "https://i.ibb.co/JKdy614/3rd-Project-IH.jpg",
-    "github": "https://github.com/DavidFelix8/FullStack-Project-IronHack",
+    "github": "https://github.com/DavidFelix8/Project-MERN-IronHack",
     "website": "https://simplify-3rdproject.herokuapp.com/",
-    "description": "This was my Third Project at Ironhack.  This platform has monthly subscriptions where we offer Services to our memberships.",
-    "languages": "ReactJS, NodeJs, Express, Passport, MongoDB",
-    "somethingElse": "This is a MERN Application made by me and one friend.",
+    "description": "This is a platform that has monthly subscriptions where we offer Services to our memberships.",
+    "languages": "ReactJS, NodeJs, Express, Passport, MongoDB, SCSS, Stripe",
+    "somethingElse": "This is a MERN Application made by me and One friend.",
     "responsive": "Yes"
   },
   {
@@ -43,17 +43,17 @@
     "image": "https://i.ibb.co/Hrn05YL/my2nd-Project.png",
     "github": "",
     "website": "",
-    "description": "This was my Second project. I made it because my mother was giving me recipes and I decided to added it on a website created by me. Soon this website will be changed, it will be remade to backend and will be hosted by a server and database with crud functionalities included.",
+    "description": "I made this project so I could add every recipe my mother gave me. Soon this website will be changed, it will be remade to Full-Stack and will be hosted and have CRUD functionalities included.",
     "languages": "Html, CSS, Javascript",
     "somethingElse": "Soon will be: NodeJs, Express, HandleBars, MongoDB, Passport",
     "responsive": "No"
   },
   {
-    "name": "Portfolio  - 2020",
+    "name": "Portfolio - 2020",
     "image": "https://i.ibb.co/vLq41fF/1st-Portfolio-Img.jpg",
     "github": "https://github.com/DavidFelix8/PortfolioV00.1",
     "website": "https://davidmcfelix.netlify.com/",
-    "description": "This is the website that you are watching which is my First Portfolio.",
+    "description": "This is my first Portfolio",
     "languages": "ReactJs, SCSS",
     "responsive": "Yes"
   }

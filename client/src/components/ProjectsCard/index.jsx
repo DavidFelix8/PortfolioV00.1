@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.scss';
+import { Image } from 'react-bootstrap';
 import styled from '@emotion/styled/macro';
 
 const ProjectsCard = (props) => {
@@ -82,6 +83,9 @@ const ProjectsCard = (props) => {
     fontWeight: 'bold',
   });
 
+  const githubButton = props.github;
+  const ViewPageButton = props.website;
+
   return (
     <div className="swiper-slide">
       <h4 className="ProjectsCard-ClickImg d-flex justify-content-center">
@@ -94,16 +98,40 @@ const ProjectsCard = (props) => {
             <Span className="ProjectsCard-Span">Made with:</Span>
             <SubTitle className="ProjectsCard-Languages"> {props.languages}</SubTitle>
             <SubTitle className="ProjectsCard-SomethingElse"> {props.somethingElse}</SubTitle>
-            <Paragraph className="ProjectsCard-Paragraph">{props.description}</Paragraph>
+            <Paragraph className="ProjectsCard-Paragraph"> {props.description}</Paragraph>
             <Paragraph className="ProjectsCard-Paragraph-Responsive">
               Responsive: {props.responsive}
             </Paragraph>
-            <CTA href={props.github} className="ProjectsCard-CTA">
-              View GitHub
-            </CTA>
+            {githubButton ? (
+              <CTA href={props.github} className="ProjectsCard-CTA">
+                View GitHub
+              </CTA>
+              ) : (
+              <CTA className="ProjectsCard-CTA">
+                <Image                
+                  className="ProjectsCard-CTA-xVermelho"
+                  src="./images/xvermelho.png"
+                  alt="NoGitHub"
+                  />
+                  View GitHub
+              </CTA>
+              ) 
+            }
+            {ViewPageButton ? (
             <CTA2 href={props.website} className="ProjectsCard-CTA2">
               View Page
             </CTA2>
+            ) : (
+            <CTA2 href={props.website} className="ProjectsCard-CTA2">
+               <Image                
+                  className="ProjectsCard-CTA2-xVermelho"
+                  src="./images/xvermelho.png"
+                  alt="NoViewBag"
+            />
+              View Page
+            </CTA2>            
+            )
+          }
           </Hover>
         </DisplayBox>
       </Background>

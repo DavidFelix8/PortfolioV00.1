@@ -12,7 +12,7 @@ class SideDots extends Component {
           {/*   <div className="SideDots-Description">
             <span>About Me</span>
           </div> */}
-          <Link to="AboutMe">
+          <Link to="">
             <div className="SideDots-All"></div>
           </Link>
         </div>
@@ -21,7 +21,7 @@ class SideDots extends Component {
           {/* <div className="SideDots-Description">
             <span>Skills</span>
           </div> */}
-          <Link to="Skills">
+          <Link to="">
             <div className="SideDots-All"></div>
           </Link>
         </div>
@@ -30,7 +30,7 @@ class SideDots extends Component {
           {/* <div className="SideDots-Description">
             <span>Projects</span>
           </div> */}
-          <Link to="Projects">
+          <Link to="">
             <div className="SideDots-All"></div>
           </Link>
         </div>

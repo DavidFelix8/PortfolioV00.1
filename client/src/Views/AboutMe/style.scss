@@ -1,6 +1,7 @@
 * {
   button:focus {
     outline: 0;
+  
   }
   /* For iOS Safari */
   -webkit-touch-callout: none;
@@ -16,6 +17,8 @@
      currently supported by Chrome,
      Opera and Firefox */
   user-select: none;
+
+  z-index:10;
 }
 
 #AboutMe-Section {
