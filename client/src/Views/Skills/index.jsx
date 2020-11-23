@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
-import {Frontend, Backend, Design, Tools} from "./../../components/SkillsAnimate"
+import {WebDev, Learning, Design, Tools} from "./../../components/SkillsAnimate"
 
 import './style.scss';
 
@@ -9,29 +9,28 @@ class SkillsView extends Component {
   render() {
     return (
       <section className="Skills_Section container">
-        <div className="row">
-          <div className="col-12">
-            <h3 className="text-center">Skills</h3>
-            <p className="lead"></p>
+        <div className="">
+          <div className="">
+            <h1 className="text-center">Skills</h1>
           </div>
         </div>
         <BrowserRouter>
-			{/* 	<div className="row">
+		<div className="Skills_Main_Box">
+			<div className="d-flex justify-content-around flex-column">
+				{/* 	<nav className="Skills_Nav">	
+						<Link className="Skills_Links" to="/webdev">WebDev</Link>
+						<Link className="Skills_Links" to="/learning">Learning</Link>
+						<Link className="Skills_Links" to="/design">Design</Link>
+						<Link className="Skills_Links" to="/tools">Tools</Link>
+					</nav> */}
 
-					<nav className="col-12">
-						<Link className="btn gsap-btn mr-2" to="/frontend">FrontEnd</Link>
-						<Link className="btn gsap-btn mr-2" to="/backend">BackEnd</Link>
-						<Link className="btn gsap-btn" to="/design">Design</Link>
-						<Link className="btn gsap-btn" to="/tools">Tools</Link>
-					</nav>
-
-					<div className="col-12">
-						<Route path="/frontend" exact>
-							{ ({ match }) => <Frontend show={match !== null} /> }
+					<div className="">
+						<Route path="/webdev" exact>
+							{ ({ match }) => <WebDev show={match !== null} /> }
 						</Route>
 						
-						<Route path="/backend">
-							{ ({ match }) => <Backend show={match !== null} /> }
+						<Route path="/learning">
+							{ ({ match }) => <Learning show={match !== null} /> }
 						</Route>
 						<Route path="/design">
 							{ ({ match }) => <Design show={match !== null} /> }
@@ -40,8 +39,8 @@ class SkillsView extends Component {
 							{ ({ match }) => <Tools show={match !== null} /> }
 						</Route>
 					</div>
-
-				</div> */}
+			</div>
+		</div>
 			</BrowserRouter>
       </section>
     );

@@ -1,0 +1,20 @@
+/* .SkillsAnimate_Box_All_Main{
+
+} */
+
+.SkillsAnimate_Box_Text{
+    background-color: aquamarine;
+    padding: 1rem;
+}
+
+.SkillsAnimate_List_UL{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(16rem), 1fr));
+    grid-gap: 1rem;
+}
+
+.SkillsAnimate_List_LI{
+    padding:5rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}

@@ -2,9 +2,11 @@ import React from "react";
 import { Transition } from "react-transition-group";
 import { TweenMax, TweenLite } from "gsap/all";
 
+import './style.scss';
+
 const startState = { autoAlpha: 0, y: -50 };
 
-export const Frontend = props => <Transition
+export const WebDev = props => <Transition
 	unmountOnExit
 	in={props.show}
 	timeout={1000}
@@ -17,18 +19,21 @@ export const Frontend = props => <Transition
 		});
 	}}
 >
-	<div className="position-absolute col-12">
-		<div className="col-12 mt-5">
-			<div className="alert alert-success">
-				<h2 className="text-center mb-0">FrontEnd</h2>
+	{/* <div className="SkillsAnimate_Box_All_Main">
+		<div className="SkillsAnimate_Box_All_Inner">
+			<div className="SkillsAnimate_Box_Text">
+				<h2 className="text-center mb-0">Web Development</h2>
 			</div>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis exercitationem provident vitae cum inventore voluptatem, numquam laborum minima quisquam excepturi odit similique repellendus beatae vero autem, natus ab deleniti expedita?</p>
-			<p>Porro eveniet dolores consectetur, sapiente quas cupiditate natus, nemo iusto modi hic accusantium necessitatibus cumque nostrum expedita quisquam corrupti alias nobis praesentium impedit non quos! Id deserunt explicabo iure nulla.</p>
+			<ul className="SkillsAnimate_List_UL">
+				<li className="SkillsAnimate_List_LI">Js</li>
+				<li className="SkillsAnimate_List_LI">Mongo</li>
+				<li className="SkillsAnimate_List_LI">Bla bla</li> 
+			</ul>
 		</div>
-	</div>
+	</div> */}
 </Transition>;
 
-export const Backend = props => <Transition
+export const Learning = props => <Transition
 	unmountOnExit
 	in={props.show}
 	timeout={1000}
@@ -44,7 +49,7 @@ export const Backend = props => <Transition
 	<div className="position-absolute col-12">
 		<div className="col-12 mt-5">
 			<div className="alert alert-success">
-				<h2 className="text-center mb-0">BackEnd</h2>
+				<h2 className="text-center mb-0">Learning New Languages</h2>
 			</div>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, suscipit consequuntur repellendus qui harum, cumque facilis quisquam, consectetur saepe doloremque ducimus? Suscipit repudiandae aut fuga.</p>
 			<p>Explicabo ut ea, hic delectus iste error illo tempora molestiae facilis amet officia, repudiandae impedit praesentium labore enim doloremque optio quae sunt odit possimus repellendus.</p>
