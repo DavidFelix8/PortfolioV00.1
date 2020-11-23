@@ -5,8 +5,13 @@
   }
 }
 
+.Skills_Main_Name {
+  text-align: center;
+  color:#FAFAFA;
+}
+
 .Skills_Main_Box{
-  margin-top: 5rem;
+  margin-top: 2rem;
   border-radius: 0.6em;
   background-color: #3498db;
  /* background-image: url('/images/desert.jpg');
@@ -16,14 +21,14 @@
 
 .Skills_Nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1rem;
 }
 
 .Skills_Links{  
   border-radius: 0.6em;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #FAFAFA;
   transition: all 150ms ease-in-out;
   

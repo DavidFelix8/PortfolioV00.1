@@ -11,12 +11,12 @@ class SkillsView extends Component {
       <section className="Skills_Section container">
         <div className="">
           <div className="">
-            <h1 className="text-center">Skills</h1>
+            <h1 className="Skills_Main_Name">Skills</h1>
           </div>
         </div>
         <BrowserRouter>
 		<div className="Skills_Main_Box">
-			<div className="d-flex justify-content-around flex-column">
+			<div className="Skills_Main_Box_Inner">
 					<nav className="Skills_Nav">	
 						<Link className="Skills_Links" to="/webdev">WebDev</Link>
 						<Link className="Skills_Links" to="/learning">Learning</Link>

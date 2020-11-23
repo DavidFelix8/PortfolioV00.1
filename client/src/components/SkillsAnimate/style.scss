@@ -2,27 +2,36 @@
 
 } */
 
-.SkillsAnimate_Box_Text{
+.SkillsAnimate_Box_Text_Outside{
     background-color: aquamarine;
     padding: 1rem;
 }
 
-/* .SkillsAnimate_Box_All_Inner{
-} */
+.SkillsAnimate_Box_Text {
+    text-align: center;
+    font-size: 1.6rem;
+}
 
 .SkillsAnimate_List_All{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width:100%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
 }
 
 .SkillsAnimate_List_UL{
-    display:flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex:1;
-    margin-right:2rem;    
+  display:flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex:1 1;
+}
+
+.SkillsAnimate_List_UL_Learning, .SkillsAnimate_List_UL_Tools, .SkillsAnimate_List_UL_Design{
+  margin-left: 12%;
+  @media(min-width:1200px){
+    width: 5rem;
+    margin-left: 15%;
+    }
 }
 
 .SkillsAnimate_List_LI{
@@ -35,27 +44,19 @@
 
 .SkillsAnimate_List_Text{
     text-align: center;
-    font-size: 1rem;
-    margin:0.8rem;
+    font-size: 1.2rem;
+    margin:1rem;
     @media(min-width:1200px){
         font-size: 1.6rem;
     }
 }
 
 .SkillsAnimate_Icons{
-  width: 6%;
+  width: 2rem;
   height: auto;
-  margin:0.2rem;
+  margin:0.5rem;
   @media(min-width:1200px){
-    margin: 1rem;
-  }
-  @media(min-width:1200px){
-    margin: 1rem;
-  }
-  @media(min-width:1200px){
-    margin: 1rem;
-  }
-  @media(min-width:1200px){
-    margin: 1rem;
+    width: 5rem;
+    margin-left: 3rem;
   }
 }
