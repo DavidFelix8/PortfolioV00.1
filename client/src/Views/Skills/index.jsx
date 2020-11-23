@@ -17,12 +17,12 @@ class SkillsView extends Component {
         <BrowserRouter>
 		<div className="Skills_Main_Box">
 			<div className="d-flex justify-content-around flex-column">
-				{/* 	<nav className="Skills_Nav">	
+					<nav className="Skills_Nav">	
 						<Link className="Skills_Links" to="/webdev">WebDev</Link>
 						<Link className="Skills_Links" to="/learning">Learning</Link>
 						<Link className="Skills_Links" to="/design">Design</Link>
 						<Link className="Skills_Links" to="/tools">Tools</Link>
-					</nav> */}
+					</nav> 
 
 					<div className="">
 						<Route path="/webdev" exact>
