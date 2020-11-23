@@ -34,7 +34,9 @@
 }
 
 .SkillsAnimate_List_Text{
+    text-align: center;
     font-size: 1rem;
+    margin:0.8rem;
     @media(min-width:1200px){
         font-size: 1.6rem;
     }

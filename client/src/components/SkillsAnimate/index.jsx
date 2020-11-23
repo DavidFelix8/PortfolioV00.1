@@ -24,7 +24,7 @@ export const WebDev = props => <Transition
 			<div className="SkillsAnimate_Box_Text">
 				<h2 className="text-center mb-0">Web Development</h2>
 			</div>
-			<h3 className="SkillsAnimate_List_Text">These are the languages that I've worked with during my time as a Student and Web Developer</h3>
+				<h3 className="SkillsAnimate_List_Text">These are the languages that I've worked with <br /> during my time as a Student and Web Developer</h3>
 			<div className="SkillsAnimate_List_All">
 				<ul className="SkillsAnimate_List_UL">
 					{/* First Row First Column*/}
