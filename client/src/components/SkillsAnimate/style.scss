@@ -3,7 +3,7 @@
 } */
 
 .SkillsAnimate_Box_Text_Outside{
-    background-color: aquamarine;
+    background-color: rgba(147,73,44,0.5);
     padding: 1rem;
 }
 
@@ -37,6 +37,7 @@
 .SkillsAnimate_List_LI{
     list-style: none;
     font-size: 1rem;
+    margin: 1rem 0;
     @media(min-width:1200px){
     font-size: 1.6rem;
     }

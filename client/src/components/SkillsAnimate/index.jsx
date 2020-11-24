@@ -183,10 +183,10 @@ export const Tools = props => <Transition
 					{/* Second Row Second Column*/}					
 					<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/Tools/GitBash.svg" alt="GitBash-Icon" className="SkillsAnimate_Icons"/>GitBash</li>
 					{/* Third Row Second Column*/}	
-					<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/Tools/Heroku.svg" alt="Heroku-Icon" className="SkillsAnimate_Icons"/>C</li>		
+					<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/Tools/Heroku.svg" alt="Heroku-Icon" className="SkillsAnimate_Icons"/>Heroku</li>		
 					{/* ... */}	
 					<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/Tools/Slack.svg" alt="Slack-Icon" className="SkillsAnimate_Icons"/>Slack</li>		
-					
+					<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/Tools/Agile/Kanban.svg" alt="Kanban-Icon" className="SkillsAnimate_Icons"/>Kanban</li>							
 				</ul>					
 			</div>
 		</div>

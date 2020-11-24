@@ -6,6 +6,20 @@ import {WebDev, Learning, Design, Tools} from "./../../components/SkillsAnimate"
 import './style.scss';
 
 class SkillsView extends Component {
+	//Change Background-Position to Center when someone clicks in any of the links
+	constructor(props) {
+		super(props);
+		this.state = {
+		  bgPosition: ""
+		}
+	}
+
+	navClick = (e) => {
+		this.setState({
+		  bgPosition: "Center"
+		})
+	  }
+
   render() {
     return (
       <section className="Skills_Section container">
@@ -15,7 +29,8 @@ class SkillsView extends Component {
           </div>
         </div>
         <BrowserRouter>
-		<div className="Skills_Main_Box">
+		<div className="Skills_Main_Box" style={{backgroundPosition: this.state.bgPosition}}
+           onClick={this.navClick}>
 			<div className="Skills_Main_Box_Inner">
 					<nav className="Skills_Nav">	
 						<Link className="Skills_Links" to="/webdev">WebDev</Link>
