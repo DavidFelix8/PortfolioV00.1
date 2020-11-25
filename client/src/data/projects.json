@@ -1,26 +1,26 @@
 [
   {
     "name": "Survivor - 2020",
-    "image": "https://i.ibb.co/6WNs660/1st-Project-IHImg.png",
+    "image": "https://i.ibb.co/s35R2dG/Be-Asurvivor.png",
     "github": "https://github.com/DavidFelix8/game-project-javascript",
     "website": "https://beasurvivor.netlify.com/",
-    "description": "This was a game developed in 2D. To win you need to kill at least 7 monsters in 10 seconds.",
+    "description": "This was a game developed in 2D. Defeat at least 7 monsters in 10 seconds to leave this desert.",
     "languages": "Javascript - Canvas",
     "responsive": "No"
   },
   {
     "name": "4Lolz - 2020",
-    "image": "https://i.ibb.co/g9821Ry/2nd-Project-IHImg.png",
+    "image": "https://i.ibb.co/ZfJBxbC/4Lolz.png",
     "github": "https://github.com/DavidFelix8/FullStack-Project-IronHack",
     "website": "https://fullstack-froject2-ironhack.herokuapp.com/",
-    "description": "It's a MVC application where after logging in with email or google you can upload funny posts about programming languages and even share them on facebook. Hope you have fun watching it and relate to them.",
+    "description": "It's a MVC application where after authenticate with email or google you can upload funny posts about programming languages and even share them on facebook. Hope you have fun watching it and relate to them.",
     "languages": "NodeJs, Express, HandleBars, Passport, MongoDB, Passport, Cloudinary, Bcrypt, SCSS",
     "somethingElse": "Full-Stack application. I did together with Two Friends.",
     "responsive": "Yes"
   },
   {
     "name": "Simplify. - 2020",
-    "image": "https://i.ibb.co/JKdy614/3rd-Project-IH.jpg",
+    "image": "https://i.ibb.co/xDRxzRc/Simplify.png",
     "github": "https://github.com/DavidFelix8/Project-MERN-IronHack",
     "website": "https://simplify-3rdproject.herokuapp.com/",
     "description": "This is a platform that has monthly subscriptions where we offer Services to our memberships.",
@@ -53,8 +53,8 @@
     "image": "https://i.ibb.co/vLq41fF/1st-Portfolio-Img.jpg",
     "github": "https://github.com/DavidFelix8/PortfolioV00.1",
     "website": "https://davidmcfelix.netlify.com/",
-    "description": "This is my first Portfolio",
-    "languages": "ReactJs, SCSS",
+    "description": "This is my first Portfolio!! The one you are watching at this moment.",
+    "languages": "ReactJs, SCSS, JSON",
     "responsive": "Yes"
   }
 ]

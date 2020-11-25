@@ -48,7 +48,7 @@ const ProjectsCard = (props) => {
   });
 
   const Background = styled.div({
-    backgroundSize: 'cover',
+    backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     color: '#FFF',
