@@ -75,7 +75,7 @@
   }
   .AboutMe-ContactMeHere {
     color: #fafafa;
-    font-size: 1.7rem;
+    font-size: 1rem;
     margin-top: 3rem;
     margin-left: 4rem;
   }
@@ -99,21 +99,20 @@
   }
   @media (min-width: 700px) {
     h3 {
-      font-size: 2rem;
+      font-size: 1.7rem;
       margin-left: 4rem;
       line-height: 2.8rem;
     }
     .AboutMe-ContactMeHere {
-      font-size: 2.4rem;
+      font-size: 1.5rem;
       margin-top: 5rem;
       margin-left: 12rem;
     }
     .AboutMe-ArrowDown {
-      margin-left: 10rem;
       height: 3rem;
     }
     .AboutMe-Social {
-      margin-left: 4rem;
+      margin-left: 5rem;
       width: 20rem;
     }
     .AboutMe-Social-img {
@@ -127,10 +126,44 @@
     h3 {
       margin-left: 0;
     }
+    .AboutMe-ArrowDown {
+      margin-left:10rem;
+      height: 3rem;
+    }
   }
+  @media (min-width: 1400px) {
+    h3 {
+      font-size: 2rem;
+      line-height: 3.5rem;
+    }
+    .AboutMe-ContactMeHere {
+      font-size: 2rem;
+      margin-top: 5rem;
+      margin-left: 12rem;
+    }
+    .AboutMe-ArrowDown {
+      margin-left: 15rem;
+      height: 3.5rem;
+    }
+  } 
+  @media (min-width: 1800px) {
+    h3 {
+      font-size: 3rem;
+      line-height: 4rem;
+    }
+    .AboutMe-Social {
+      margin-left: 15rem;
+    }
+    .AboutMe-Social-img {
+      width: 4rem; 
+      height: 4rem;
+      margin-left:5rem;
+    } 
+  } 
 }
 
 .AboutMe-Text-First {
+  margin-top: 6rem;
   padding-top: 6%;
   @media (min-width: 1024px) {
     align-self: center;
@@ -139,13 +172,16 @@
 
 .AboutMe-Text-Second {
   // padding-top: 11%;
-  align-self: flex-start;
+  //align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top:2rem;
   @media (min-width: 1024px) {
     // align-self: center;
     display: block;
     justify-content: flex-start;
     align-content: flex-start;
-    margin-top: 5rem;
   }
 }
 
@@ -154,9 +190,12 @@
   font-size: 1.5rem;
   margin-bottom: 3rem;
   @media (min-width: 700px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   @media (min-width: 1000px) {
+    font-size: 2rem;
+  }
+  @media (min-width: 1800px) {
     font-size: 2.5rem;
   }
 }
@@ -172,6 +211,9 @@
     }
     @media (min-width: 1000px) {
       font-size: 2rem;
+    }
+    @media (min-width: 1800px) {
+      font-size: 2.5rem;
     }
   }
 }
@@ -192,6 +234,9 @@
     @media (min-width: 1000px) {
       font-size: 2rem;
     }
+    @media (min-width: 1800px) {
+      font-size: 3rem;
+    }  
   }
 }
 

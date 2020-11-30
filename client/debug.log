@@ -6,3 +6,4 @@
 [1124/155519.436:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não conseguiu localizar o caminho especificado. (0x3)
 [1124/221337.156:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não conseguiu localizar o caminho especificado. (0x3)
 [1124/221503.483:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+[1129/192037.014:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não conseguiu localizar o caminho especificado. (0x3)
