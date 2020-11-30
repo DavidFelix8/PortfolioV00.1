@@ -5,12 +5,11 @@ import {WebDev, Learning, Design, Tools} from "./../../components/SkillsAnimate"
 
 import './style.scss';
 
-class SkillsView extends Component {
-	//Change Background-Position to Center when someone clicks in any of the links
+class SkillsView extends Component {	
 	constructor(props) {
 		super();
 		this.state = {
-		  bgPosition: "",
+		  bgPosition: "", //Change Background-Position to Center when someone clicks in any of the links
 		  textshow : true,
 		};
 		this.BoxTextShow = this.BoxTextShow.bind(this);
@@ -67,16 +66,18 @@ class SkillsView extends Component {
 			</div>
 		</div>
 		</BrowserRouter>
-		{ this.state.textshow ? <h1 className="Skills_TextEnd Skills_TextEnd_Left">In 2018 I decided to start learning how to code so I enrolled at the university in Computer Science. <br/><br/>
+		<article className="Skills_Article_End">
+		{ this.state.textshow ?  <h1 className="Skills_TextEnd Skills_TextEnd_Left">In 2018 I decided to start learning how to code so I enrolled at the university in Computer Science. <br/><br/>
 			In the meantime I took several online courses and watched some tutorials on the internet to get used to the syntax.<br/><br/>
 			
 			</h1>
 		: null}			
 		{ this.state.textshow ? <h1 className="Skills_TextEnd Skills_TextEnd_Right">I was mainly dedicated to web development so I made some websites to test my skills.<br/><br/>
 			Later in 2020 I did a Web Development Bootcamp.<br/><br/>
-			I'm always trying to learn new languages ​​and improve the knowledge of the ones I'm already used to.<br/><br/>
-			</h1>
-		: null}			
+			Beyond that I'm always trying to learn new languages ​​and improve the knowledge of the ones I'm already used to.<br/><br/>
+			</h1> 
+		: null}		
+		</article>	
 		{ this.state.textshow ? <h1 className="Skills_TextEnd_Final">Click on the links above to see my capabilities.
 			</h1>
 		: null}			

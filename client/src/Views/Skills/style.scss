@@ -75,13 +75,22 @@
   color: #fafafa;
   font-size: 1.2rem;
   box-sizing: border-box;
-  margin-top: 3rem;
   overflow-x: hidden;
   display: inline-flex;
   width: 50%;
   height: 100%;
   @media(min-width:1800px){
     font-size: 1.6rem;
+  }  
+  @media(min-width:2100px){
+    font-size: 2rem;
+  }
+}
+
+.Skills_Article_End{
+  margin-top: 3rem;
+  @media(min-width:2100px){
+    margin-top: 5rem;  
   }
 }
 
@@ -111,5 +120,8 @@
   margin-top:3rem;
  @media(min-width:1800px){
     font-size: 1.6rem;
+  }
+  @media(min-width:2100px){
+    font-size: 2rem;
   }
 }
