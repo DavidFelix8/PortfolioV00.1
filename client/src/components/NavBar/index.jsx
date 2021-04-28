@@ -24,7 +24,7 @@ export class NavBar extends Component {
             <Nav.Link
               className="Navbar-Links"
               eventKey={2}
-              href="https://drive.google.com/file/d/1YXqwG1rPlsVzePq6SU9ShyNMjSldVJXv/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Zt7IKujyjILBn_Jk9rW2LR8WUgEfGYvT/view?usp=sharing"
               >
               Resume
             </Nav.Link>

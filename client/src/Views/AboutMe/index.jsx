@@ -110,7 +110,7 @@ class AboutMeView extends Component {
                 <div className="AboutMe-KnowMore-Links-div">
                   <a
                     className="AboutMe-KnowMore-Links"
-                    href="https://drive.google.com/file/d/1YXqwG1rPlsVzePq6SU9ShyNMjSldVJXv/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1Zt7IKujyjILBn_Jk9rW2LR8WUgEfGYvT/view?usp=sharing"
                   >
                     Resume
                   </a>
