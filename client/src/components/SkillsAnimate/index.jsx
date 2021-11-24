@@ -34,7 +34,7 @@ export const WebDev = props => <Transition
 							{/* Third Row First Column*/}	
 							<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/WebDev/FrameWorks.Libraries.RunTimeEnv/NodeJs.svg" alt="NodeJs-Icon" className="SkillsAnimate_Icons"/>NodeJs</li>		
 							{/* ... */}					
-							<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/WebDev/DB/JSON.svg" alt="JSON-Icon" className="SkillsAnimate_Icons"/>JSON</li>		
+							<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/WebDev/BackEnd/NetCore.svg" alt="NetCore-Icon" className="SkillsAnimate_Icons"/>.Net Core</li>		
 						</ul>
 						<ul className="SkillsAnimate_List_UL SkillsAnimate_List_UL_Web">
 							{/* First Row Second Column */}
@@ -44,7 +44,7 @@ export const WebDev = props => <Transition
 							{/* Third Row Second Column*/}	
 							<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/WebDev/BackEnd/C.svg" alt="C-Icon" className="SkillsAnimate_Icons"/>C</li>		
 							{/* ... */}	
-							<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/WebDev/DB/SQL.svg" alt="SQL-Icon" className="SkillsAnimate_Icons"/>SQL</li>									
+							<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/WebDev/DB/JSON.svg" alt="JSON-Icon" className="SkillsAnimate_Icons"/>JSON</li>		
 						</ul>
 						<ul className="SkillsAnimate_List_UL SkillsAnimate_List_UL_Web">
 							{/* First Row Third Column */}
@@ -54,7 +54,7 @@ export const WebDev = props => <Transition
 							{/* Third Row Third Column*/}	
 							<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/WebDev/BackEnd/C++.svg" alt="C++-Icon" className="SkillsAnimate_Icons"/>C++</li>
 							{/* ... */}					
-							<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/WebDev/DB/MongoDB.svg" alt="MongoDB-Icon" className="SkillsAnimate_Icons"/>MongoDB</li>		
+							<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/WebDev/DB/SQL.svg" alt="SQL-Icon" className="SkillsAnimate_Icons"/>SQL</li>									
 						</ul>
 						<ul className="SkillsAnimate_List_UL SkillsAnimate_List_UL_Web">
 							{/* First Row Third Column */}
@@ -64,6 +64,7 @@ export const WebDev = props => <Transition
 							{/* Third Row Third Column*/}	
 							<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/WebDev/BackEnd/Csharp.svg" alt="C#-Icon" className="SkillsAnimate_Icons"/>C#</li>
 							{/* ... */}						
+							<li className="SkillsAnimate_List_LI"><img src="./images/skills-icons/WebDev/DB/MongoDB.svg" alt="MongoDB-Icon" className="SkillsAnimate_Icons"/>MongoDB</li>		
 						</ul>
 					</div>			
 		</div>
